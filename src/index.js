@@ -10,8 +10,12 @@ import MoviesContainer from './listDataApi/MoviesContainer';
 // Lifting State Up Example
 import CardContainer from './liftingStateUp/CardContainer';
 
+// Life Cycle Example
 import LifeCycleContainer from './lifeCycle/LifeCycleContainer';
+
+// React Router Example
+import App from './reactRouter/App';
 
 const containerApp = document.getElementById('root');
 
-ReactDOM.render(<LifeCycleContainer />, containerApp)
+ReactDOM.render(<App />, containerApp)

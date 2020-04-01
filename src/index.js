@@ -16,6 +16,9 @@ import LifeCycleContainer from './lifeCycle/LifeCycleContainer';
 // React Router Example
 import App from './reactRouter/App';
 
+// Active Links Example
+import ActiveLinks from './activeLinks/ActiveLinks';
+
 const containerApp = document.getElementById('root');
 
-ReactDOM.render(<App />, containerApp)
+ReactDOM.render(<ActiveLinks />, containerApp)

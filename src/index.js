@@ -21,4 +21,4 @@ import ActiveLinks from './activeLinks/ActiveLinks';
 
 const containerApp = document.getElementById('root');
 
-ReactDOM.render(<ActiveLinks />, containerApp)
+ReactDOM.render(<MoviesContainer />, containerApp)

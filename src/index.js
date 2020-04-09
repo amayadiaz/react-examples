@@ -19,6 +19,9 @@ import App from './reactRouter/App';
 // Active Links Example
 import ActiveLinks from './activeLinks/ActiveLinks';
 
+// Post Example 
+import ListFormContainer from './postTest/ListFormContainer';
+
 const containerApp = document.getElementById('root');
 
-ReactDOM.render(<MoviesContainer />, containerApp)
+ReactDOM.render(<ListFormContainer />, containerApp)

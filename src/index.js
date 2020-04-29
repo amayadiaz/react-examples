@@ -1,27 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 // Hello World Example
-import HelloWorld from './helloWorld/HelloWorld';
+import HelloWorld from "./helloWorld/HelloWorld";
 
 // List Data Api Example
-import MoviesContainer from './listDataApi/MoviesContainer';
+import MoviesContainer from "./listDataApi/MoviesContainer";
 
 // Lifting State Up Example
-import CardContainer from './liftingStateUp/CardContainer';
+import CardContainer from "./liftingStateUp/CardContainer";
 
 // Life Cycle Example
-import LifeCycleContainer from './lifeCycle/LifeCycleContainer';
+import LifeCycleContainer from "./lifeCycle/LifeCycleContainer";
 
 // React Router Example
-import App from './reactRouter/App';
+import App from "./reactRouter/App";
 
 // Active Links Example
-import ActiveLinks from './activeLinks/ActiveLinks';
+import ActiveLinks from "./activeLinks/ActiveLinks";
 
-// Post Example 
-import ListFormContainer from './postTest/ListFormContainer';
+// Post Example
+import ListFormContainer from "./postTest/ListFormContainer";
 
-const containerApp = document.getElementById('root');
+// Hook Example
+import Counter from "./firstHook/Counter";
 
-ReactDOM.render(<ListFormContainer />, containerApp)
+const containerApp = document.getElementById("root");
+
+ReactDOM.render(<Counter />, containerApp);

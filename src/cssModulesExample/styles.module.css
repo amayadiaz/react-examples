@@ -1,0 +1,26 @@
+.card {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #1565c0;
+  width: 30%;
+}
+.playerName {
+  font-size: 24px;
+  color: #1565c0;
+}
+
+.cardGreen {
+  background-color: #c8e6c9;
+}
+
+.cardGray {
+  background-color: #e0e0e0;
+}
+
+button {
+  margin: 5px 0px;
+}
+
+p {
+  margin: 5px 0px;
+}

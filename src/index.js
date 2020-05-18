@@ -25,6 +25,12 @@ import ListFormContainer from "./postTest/ListFormContainer";
 // Hook Example
 import Counter from "./firstHook/Counter";
 
+// Styled Components Example
+import StyledContainer from "./styledExample/StyledContainer";
+
+// CSS Modules Example
+import CssModuleContainer from "./cssModulesExample/CssModuleContainer";
+
 const containerApp = document.getElementById("root");
 
-ReactDOM.render(<Counter />, containerApp);
+ReactDOM.render(<StyledContainer />, containerApp);

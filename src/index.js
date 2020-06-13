@@ -1,36 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Hello World Example
+// 1. Hello World Example
 import HelloWorld from "./helloWorld/HelloWorld";
 
-// List Data Api Example
+// 2. List Data Api Example
 import MoviesContainer from "./listDataApi/MoviesContainer";
 
-// Lifting State Up Example
+// 3. Lifting State Up Example
 import CardContainer from "./liftingStateUp/CardContainer";
 
-// Life Cycle Example
+// 4. Life Cycle Example
 import LifeCycleContainer from "./lifeCycle/LifeCycleContainer";
 
-// React Router Example
+// 5. React Router Example
 import App from "./reactRouter/App";
 
-// Active Links Example
+// 6. Active Links Example
 import ActiveLinks from "./activeLinks/ActiveLinks";
 
-// Post Example
+// 7. Post Example
 import ListFormContainer from "./postTest/ListFormContainer";
 
-// Hook Example
+// 8. Hook Example
 import Counter from "./firstHook/Counter";
 
-// Styled Components Example
-import StyledContainer from "./styledExample/StyledContainer";
+// 9. Styled Components Example
+import StyledContainer from "./styledComponentsExample/StyledContainer";
 
-// CSS Modules Example
+// 10. CSS Modules Example
 import CssModuleContainer from "./cssModulesExample/CssModuleContainer";
 
 const containerApp = document.getElementById("root");
 
-ReactDOM.render(<StyledContainer />, containerApp);
+ReactDOM.render(<CardContainer />, containerApp);
